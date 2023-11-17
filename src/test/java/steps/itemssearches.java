@@ -22,6 +22,10 @@ public class itemssearches {
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		
+		
+		///jnkdjhasdl kfhjla ksdh flkasjdi
 	}
 	@When("I enter the {string} in the search bar")
 	public void i_enter_the_in_the_search_bar(String string) {
