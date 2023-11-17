@@ -22,13 +22,15 @@ public class itemssearches {
 	@Given("I am on the google homepage")
 	public void i_am_on_the_google_homepage() {
 		WebDriverManager.chromedriver().setup();
+		
+		//l;kjdlskhjoif
 		driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		
-		
+		////idjo;ajsd
 		///jnkdjhasdl kfhjla ksdh flkasjdi
 	}
 	@When("I enter the {string} in the search bar")
