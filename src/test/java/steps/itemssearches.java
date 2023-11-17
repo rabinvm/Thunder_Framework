@@ -28,7 +28,7 @@ public class itemssearches {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		
-		
+		////idjo;ajsd
 		///jnkdjhasdl kfhjla ksdh flkasjdi
 	}
 	@When("I enter the {string} in the search bar")
